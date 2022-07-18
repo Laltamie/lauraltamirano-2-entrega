@@ -15,10 +15,10 @@ button{
     background-color: #2196F3;
     border: 1px solid #000000;
     position: relative;
-}
 
-#pag-nav h1{
-    margin: 20px;
+    #pag-nav h1{
+        margin: 20px;
+    }
 }
 
 #button-pagar{
@@ -29,12 +29,12 @@ button{
     position: absolute;
     right: 15px;
     bottom: 15px;
-}
 
-#button-pagar:hover {
-    background-color: #008CBA;
-    color: white;
-  }
+    #button-pagar:hover {
+        background-color: #008CBA;
+        color: white;
+      }
+}
 
 #pag-productos{
     display: flex;
@@ -49,19 +49,20 @@ button{
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     background-color: white;
-}
 
-#contenedor-producto:hover{
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+    #contenedor-producto:hover{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
 
-#contenedor-producto h2{
-    margin-bottom: 10px;
-    margin-left: 15px;
-}
+    #contenedor-producto h2{
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
 
-#contenedor-producto img{
-    width: 300px;
+    #contenedor-producto img{
+        width: 100px;
+        height: auto;
+    }
 }
 
 
@@ -73,9 +74,9 @@ button{
     position: absolute;
     right: 15px;
     bottom: 10px;
-  }
-  
-  #button-agregar:hover {
-    background-color: #4CAF50;
-    color: white;
+
+    #button-agregar:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
   }

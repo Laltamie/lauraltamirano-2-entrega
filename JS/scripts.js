@@ -1,6 +1,9 @@
+//VARIABLES
 let productos = [];
 let total = 0;
 
+
+//FUNCIONES
 function agregar(producto, precio){
     console.log(producto, precio);
     productos.push(producto);
